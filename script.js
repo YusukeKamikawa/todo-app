@@ -21,7 +21,7 @@ function addTodoTask() {
     // <label></label>
     let label = document.createElement('label');
     // <label>スープを作る</label>
-    label.textContent = "miso";
+    label.textContent = "職場先で飲む飲料水の購入";
 
     // 4. divで囲みたい(１行1TODOにしたいので)
     // <div>
@@ -46,9 +46,22 @@ function addTodoTask() {
 
     // 5. 作ったdivの塊(divの中にinputとlabelが入った塊)を<div id="todo-list">の最後に追加する
     todoList.appendChild(div);
+
 }
 
-const todoListに代入される
+Function addTodoTask2() {
+    consut todoList = document.querySelector("#todo-list");
+    let input = document.createElement('input');
+    input.type = "checkbox";
+    let lavel = document.createElement('lavel');
+    lavel.textContent = "お昼ご飯を食べる";
+    let div = document.createElement('div');
+    div.appendChild("input");
+    div.appendChild("lavel");
+    todoList.appendChild("div");
+}
+
+
 
 
 

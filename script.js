@@ -47,6 +47,7 @@ function addTodoTask() {
     // 5. 作ったdivの塊(divの中にinputとlabelが入った塊)を<div id="todo-list">の最後に追加する
     todoList.appendChild(div);
 }
+
 const todoListに代入される
 
 

@@ -68,7 +68,7 @@ Function addTodoTask2() {
 
 function chinpo() {
     while (true) {
-        alert('無限ちんぽです');
+        alert('無ちんぽです');
     }
 }
 

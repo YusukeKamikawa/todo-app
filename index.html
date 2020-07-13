@@ -5,18 +5,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ToDoアプリ</title>
+    <script src="script.js"></script>
 </head>
 
 <body>
     <input type="text">
-    <input type="button" value=ToDoアプリ>
-    <div>
-        <input type="checkbox" id="todo=checkbox" name="todo-box">
-        <lavel for="todo-checkbox">買い物に行く</lavel>
-    </div>
-    <div>
-        <input type="checkbox" id="todo=checkbox" name="todo-box">
-        <lavel for="todo-checkbox">カレーを作る</lavel>
+    <input type="button" value=ToDoアプリ onclick="addTodoTask()">
+    <div id="todo-list">
+        <div>
+            <input type="checkbox" id="todo=checkbox" name="todo-box">
+            <lavel for="todo-checkbox">シャワーを浴びる</lavel>
+        </div>
+        <div>
+            <input type="checkbox" id="todo=checkbox" name="todo-box">
+            <lavel for="todo-checkbox">歯を磨く</lavel>
+        </div>
+        <div>
+            <input type="checkbox" id="todo=checkbox" name="todo-box">
+            <lavel for="todo-checkbox">朝ごはんを食べる</lavel>
+        </div>
+        <div>
+            <input type="checkbox" id="todo=checkbox" name="todo-box">
+            <lavel for="todo-checkbox">職場に向かう</lavel>
+        </div>
+
     </div>
 </body>
 

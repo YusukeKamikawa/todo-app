@@ -49,16 +49,16 @@ function addTodoTask() {
 
 }
 
-Function addTodoTask2() {
-    consut todoList = document.querySelector("#todo-list");
+function addTodoTask2() {
+    const todoList = document.querySelector('#todo-list');
     let input = document.createElement('input');
     input.type = "checkbox";
-    let lavel = document.createElement('lavel');
+    let lavbl = document.createElement('lavel');
     lavel.textContent = "お昼ご飯を食べる";
     let div = document.createElement('div');
-    div.appendChild("input");
-    div.appendChild("lavel");
-    todoList.appendChild("div");
+    div.appendChild('input');
+    div.appendChild('lavel');
+    todoList.appendChild('div');
 }
 
 
